@@ -1,7 +1,6 @@
 import "./App.css";
 import ProfileCard from "./components/ProfileCard";
 import ImageCard from "./components/ImageCard";
-
 function App() {
   return (
     <div className="profile-container">
