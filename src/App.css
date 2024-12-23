@@ -1,0 +1,30 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.profile-container {
+  border: 2px solid rgb(89, 89, 89);
+  padding: 25px;
+  width: 300px;
+  margin: 5rem auto;
+  border-radius: 17px;
+  transition: 0.4s;
+  cursor: pointer;
+  box-shadow: 1px 4px 10px 0px rgba(128, 128, 128, 0.659);
+}
+.profile-container:hover {
+  scale: 1.02;
+  box-shadow: 1px 6px 20px 0px rgba(128, 128, 128, 0.659);
+}
+p {
+  margin: 4px;
+}
+.image-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+img {
+  width: 100%;
+}
